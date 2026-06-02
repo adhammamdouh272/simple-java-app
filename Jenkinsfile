@@ -17,7 +17,7 @@ pipeline{
 
         stage('build image'){
             steps{
-                sh 'docker build -t adhammamdouh272/java-app'
+                sh 'docker build -t adhammamdouh272/java-app .'
                 echo 'Docker image built successfully successful'
             }
         }
