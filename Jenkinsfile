@@ -8,7 +8,7 @@ pipeline{
             }
         }
 
-        tage('test app'){
+        stage('test app'){
             steps{
                 sh 'mvn test'
                 echo 'test successful'
